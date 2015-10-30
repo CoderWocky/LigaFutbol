@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
-<%@ taglib prefix="sql" uri="http://java.sun.com/jstl/sql_rt"%>
+<%@taglib prefix="sql" uri="http://java.sun.com/jstl/sql_rt"%>
 
 <sql:setDataSource driver="oracle.jdbc.driver.OracleDriver" 
     url="jdbc:oracle:thin:@localhost:1521:XE" user="system" password="javaoracle"/>
